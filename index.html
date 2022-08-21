@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="img"></div>
+    <div class="background">
+      <div class="controls" >
+        <label for="blur">blur:</label>
+        <input
+          type="range"
+          id="blur"
+          min="0"
+          max="100"
+          onchange="blured()"
+          onvolumechange="blured()"
+          onclick="blured()"
+        />
+        <label for="brightness">brightness:</label>
+        <input
+          type="range"
+          id="brightness"
+          min="0"
+          max="1000"
+          onchange="bright()"
+          onvolumechange="bright()"
+          onclick="bright()"
+        /><label for="saturation">saturation:</label>
+        <input
+          type="range"
+          id="saturation"
+          min="0"
+          max="100"
+          onchange="saturated()"
+          onvolumechange="saturated()"
+          onclick="saturated()"
+        /><label for="hue">hue:</label
+        ><input
+          type="range"
+          id="hue"
+          min="0"
+          max="100"
+          onchange="hued()"
+          onvolumechange="hued()"
+          
+          onclick="hued()"
+        />
+        <label for="contrast">contrast:</label
+        ><input
+          type="range"
+          id="contrast"
+          min="0"
+          max="600"
+          onchange="contrasted()"
+          onvolumechange="contrasted()"
+          onclick="contrasted()"
+        />
+        <label for="invert">invert:</label
+        ><input
+          type="range"
+          id="invert"
+          min="0"
+          max="120"
+          onchange="inverted()"
+          onvolumechange="inverted()"
+          onclick="inverted()"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
