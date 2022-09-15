@@ -17,48 +17,51 @@
           id="blur"
           min="0"
           max="100"
-          onchange="blured()"
-          onvolumechange="blured()"
-          onclick="blured()"
+          onchange="filter()"
+          onvolumechange="filter()"
+          onclick="filter()"
         />
         <label for="brightness">brightness:</label>
         <input
           type="range"
           id="brightness"
           min="0"
-          max="1000"
-          onchange="bright()"
-          onvolumechange="bright()"
-          onclick="bright()"
+          max="100"
+          onchange="filter()"
+          onvolumechange="filter()"
+          onclick="filter()"
+          
+          value="100%"
         /><label for="saturation">saturation:</label>
         <input
           type="range"
           id="saturation"
           min="0"
           max="100"
-          onchange="saturated()"
-          onvolumechange="saturated()"
-          onclick="saturated()"
+          onchange="filter()"
+          onvolumechange="filter()"
+          onclick="filter()"
         /><label for="hue">hue:</label
         ><input
           type="range"
           id="hue"
           min="0"
           max="100"
-          onchange="hued()"
-          onvolumechange="hued()"
+          onchange="filter()"
+          onvolumechange="filter()"
           
-          onclick="hued()"
+          onclick="filter()"
         />
         <label for="contrast">contrast:</label
         ><input
           type="range"
           id="contrast"
           min="0"
-          max="600"
-          onchange="contrasted()"
-          onvolumechange="contrasted()"
-          onclick="contrasted()"
+          max="250"
+          onchange="filter()"
+          onvolumechange="filter()"
+          onclick="filter()"
+          value="100"
         />
         <label for="invert">invert:</label
         ><input
@@ -66,9 +69,9 @@
           id="invert"
           min="0"
           max="120"
-          onchange="inverted()"
-          onvolumechange="inverted()"
-          onclick="inverted()"
+          onchange="filter()"
+          onvolumechange="filter()"
+          onclick="filter()"
         />
       </div>
     </div>
